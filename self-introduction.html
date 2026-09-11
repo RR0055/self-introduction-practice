@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+</head>
+<body>
+    <h1>自己紹介</h1>
+    <h2>プロフィール</h2>
+    <p>名前:内田怜奈</p>
+    <p>年齢:26歳</p>
+    <p>出身地:兵庫県</p>
+    <p>趣味:ゲーム</p>
+    <h2>好きなもの</h2>
+    <u1>
+        <li>チョコレート</li>
+        <li>チーズ</li>
+        <li>ミルクレープ</li>
+    </u1>
+    <h2>今年の目標</h2>
+    <o1>
+        <li>部屋の整理</li>
+        <li>学び続ける</li>
+        <li>楽しく生きる</li>
+    </o1>
+    <h2>リンク</h2>
+    <a href="https://github.com/RR0055/my-first-git" target="_blank">私のGitHub</a>
+    <h2>好きな風景</h2>
+    <img src="landscape.jpg" alt="好きな風景" width="400" height="400">
+    <h2>お問い合わせ</h2>
+    <form action="/submit" method="POST">
+        <label for="username">お名前
+        <input type="text" name="username" required>
+        </label>
+        <select name="prefecture">
+            <option value="">--選択してください--</option>
+            <option value="ab">一般的なお問い合わせ</option>
+            <option value="cd">ご意見・ご要望</option>
+        </select>
+        <br>
+        <label for="message">お問い合わせ内容
+        <textarea name="message" rows="5" cols="40" required></textarea>
+        </label>
+        <button type="submit">送信する</button>
+    </form>
+</body>
+</html>
